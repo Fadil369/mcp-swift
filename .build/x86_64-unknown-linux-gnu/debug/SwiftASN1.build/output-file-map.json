@@ -1,0 +1,113 @@
+{
+  "": {
+    "swift-dependencies": "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/SwiftASN1.build/master.swiftdeps"
+  },
+  "/home/runner/work/mcp-swift/mcp-swift/.build/checkouts/swift-asn1/Sources/SwiftASN1/ASN1.swift": {
+    "dependencies": "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/SwiftASN1.build/ASN1.d",
+    "object": "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/SwiftASN1.build/ASN1.swift.o",
+    "swiftmodule": "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/SwiftASN1.build/ASN1~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/SwiftASN1.build/ASN1.swiftdeps"
+  },
+  "/home/runner/work/mcp-swift/mcp-swift/.build/checkouts/swift-asn1/Sources/SwiftASN1/BER.swift": {
+    "dependencies": "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/SwiftASN1.build/BER.d",
+    "object": "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/SwiftASN1.build/BER.swift.o",
+    "swiftmodule": "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/SwiftASN1.build/BER~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/SwiftASN1.build/BER.swiftdeps"
+  },
+  "/home/runner/work/mcp-swift/mcp-swift/.build/checkouts/swift-asn1/Sources/SwiftASN1/Basic ASN1 Types/ASN1Any.swift": {
+    "dependencies": "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/SwiftASN1.build/ASN1Any.d",
+    "object": "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/SwiftASN1.build/ASN1Any.swift.o",
+    "swiftmodule": "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/SwiftASN1.build/ASN1Any~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/SwiftASN1.build/ASN1Any.swiftdeps"
+  },
+  "/home/runner/work/mcp-swift/mcp-swift/.build/checkouts/swift-asn1/Sources/SwiftASN1/Basic ASN1 Types/ASN1BitString.swift": {
+    "dependencies": "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/SwiftASN1.build/ASN1BitString.d",
+    "object": "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/SwiftASN1.build/ASN1BitString.swift.o",
+    "swiftmodule": "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/SwiftASN1.build/ASN1BitString~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/SwiftASN1.build/ASN1BitString.swiftdeps"
+  },
+  "/home/runner/work/mcp-swift/mcp-swift/.build/checkouts/swift-asn1/Sources/SwiftASN1/Basic ASN1 Types/ASN1Boolean.swift": {
+    "dependencies": "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/SwiftASN1.build/ASN1Boolean.d",
+    "object": "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/SwiftASN1.build/ASN1Boolean.swift.o",
+    "swiftmodule": "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/SwiftASN1.build/ASN1Boolean~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/SwiftASN1.build/ASN1Boolean.swiftdeps"
+  },
+  "/home/runner/work/mcp-swift/mcp-swift/.build/checkouts/swift-asn1/Sources/SwiftASN1/Basic ASN1 Types/ASN1Identifier.swift": {
+    "dependencies": "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/SwiftASN1.build/ASN1Identifier.d",
+    "object": "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/SwiftASN1.build/ASN1Identifier.swift.o",
+    "swiftmodule": "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/SwiftASN1.build/ASN1Identifier~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/SwiftASN1.build/ASN1Identifier.swiftdeps"
+  },
+  "/home/runner/work/mcp-swift/mcp-swift/.build/checkouts/swift-asn1/Sources/SwiftASN1/Basic ASN1 Types/ASN1Integer.swift": {
+    "dependencies": "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/SwiftASN1.build/ASN1Integer.d",
+    "object": "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/SwiftASN1.build/ASN1Integer.swift.o",
+    "swiftmodule": "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/SwiftASN1.build/ASN1Integer~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/SwiftASN1.build/ASN1Integer.swiftdeps"
+  },
+  "/home/runner/work/mcp-swift/mcp-swift/.build/checkouts/swift-asn1/Sources/SwiftASN1/Basic ASN1 Types/ASN1Null.swift": {
+    "dependencies": "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/SwiftASN1.build/ASN1Null.d",
+    "object": "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/SwiftASN1.build/ASN1Null.swift.o",
+    "swiftmodule": "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/SwiftASN1.build/ASN1Null~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/SwiftASN1.build/ASN1Null.swiftdeps"
+  },
+  "/home/runner/work/mcp-swift/mcp-swift/.build/checkouts/swift-asn1/Sources/SwiftASN1/Basic ASN1 Types/ASN1OctetString.swift": {
+    "dependencies": "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/SwiftASN1.build/ASN1OctetString.d",
+    "object": "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/SwiftASN1.build/ASN1OctetString.swift.o",
+    "swiftmodule": "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/SwiftASN1.build/ASN1OctetString~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/SwiftASN1.build/ASN1OctetString.swiftdeps"
+  },
+  "/home/runner/work/mcp-swift/mcp-swift/.build/checkouts/swift-asn1/Sources/SwiftASN1/Basic ASN1 Types/ASN1Strings.swift": {
+    "dependencies": "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/SwiftASN1.build/ASN1Strings.d",
+    "object": "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/SwiftASN1.build/ASN1Strings.swift.o",
+    "swiftmodule": "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/SwiftASN1.build/ASN1Strings~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/SwiftASN1.build/ASN1Strings.swiftdeps"
+  },
+  "/home/runner/work/mcp-swift/mcp-swift/.build/checkouts/swift-asn1/Sources/SwiftASN1/Basic ASN1 Types/ArraySliceBigint.swift": {
+    "dependencies": "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/SwiftASN1.build/ArraySliceBigint.d",
+    "object": "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/SwiftASN1.build/ArraySliceBigint.swift.o",
+    "swiftmodule": "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/SwiftASN1.build/ArraySliceBigint~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/SwiftASN1.build/ArraySliceBigint.swiftdeps"
+  },
+  "/home/runner/work/mcp-swift/mcp-swift/.build/checkouts/swift-asn1/Sources/SwiftASN1/Basic ASN1 Types/GeneralizedTime.swift": {
+    "dependencies": "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/SwiftASN1.build/GeneralizedTime.d",
+    "object": "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/SwiftASN1.build/GeneralizedTime.swift.o",
+    "swiftmodule": "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/SwiftASN1.build/GeneralizedTime~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/SwiftASN1.build/GeneralizedTime.swiftdeps"
+  },
+  "/home/runner/work/mcp-swift/mcp-swift/.build/checkouts/swift-asn1/Sources/SwiftASN1/Basic ASN1 Types/ObjectIdentifier.swift": {
+    "dependencies": "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/SwiftASN1.build/ObjectIdentifier.d",
+    "object": "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/SwiftASN1.build/ObjectIdentifier.swift.o",
+    "swiftmodule": "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/SwiftASN1.build/ObjectIdentifier~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/SwiftASN1.build/ObjectIdentifier.swiftdeps"
+  },
+  "/home/runner/work/mcp-swift/mcp-swift/.build/checkouts/swift-asn1/Sources/SwiftASN1/Basic ASN1 Types/PEMDocument.swift": {
+    "dependencies": "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/SwiftASN1.build/PEMDocument.d",
+    "object": "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/SwiftASN1.build/PEMDocument.swift.o",
+    "swiftmodule": "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/SwiftASN1.build/PEMDocument~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/SwiftASN1.build/PEMDocument.swiftdeps"
+  },
+  "/home/runner/work/mcp-swift/mcp-swift/.build/checkouts/swift-asn1/Sources/SwiftASN1/Basic ASN1 Types/TimeUtilities.swift": {
+    "dependencies": "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/SwiftASN1.build/TimeUtilities.d",
+    "object": "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/SwiftASN1.build/TimeUtilities.swift.o",
+    "swiftmodule": "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/SwiftASN1.build/TimeUtilities~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/SwiftASN1.build/TimeUtilities.swiftdeps"
+  },
+  "/home/runner/work/mcp-swift/mcp-swift/.build/checkouts/swift-asn1/Sources/SwiftASN1/Basic ASN1 Types/UTCTime.swift": {
+    "dependencies": "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/SwiftASN1.build/UTCTime.d",
+    "object": "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/SwiftASN1.build/UTCTime.swift.o",
+    "swiftmodule": "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/SwiftASN1.build/UTCTime~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/SwiftASN1.build/UTCTime.swiftdeps"
+  },
+  "/home/runner/work/mcp-swift/mcp-swift/.build/checkouts/swift-asn1/Sources/SwiftASN1/DER.swift": {
+    "dependencies": "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/SwiftASN1.build/DER.d",
+    "object": "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/SwiftASN1.build/DER.swift.o",
+    "swiftmodule": "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/SwiftASN1.build/DER~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/SwiftASN1.build/DER.swiftdeps"
+  },
+  "/home/runner/work/mcp-swift/mcp-swift/.build/checkouts/swift-asn1/Sources/SwiftASN1/Errors.swift": {
+    "dependencies": "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/SwiftASN1.build/Errors.d",
+    "object": "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/SwiftASN1.build/Errors.swift.o",
+    "swiftmodule": "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/SwiftASN1.build/Errors~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/SwiftASN1.build/Errors.swiftdeps"
+  }
+}

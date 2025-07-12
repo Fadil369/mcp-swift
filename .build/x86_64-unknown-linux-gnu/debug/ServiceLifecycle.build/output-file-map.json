@@ -1,0 +1,53 @@
+{
+  "": {
+    "swift-dependencies": "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/ServiceLifecycle.build/master.swiftdeps"
+  },
+  "/home/runner/work/mcp-swift/mcp-swift/.build/checkouts/swift-service-lifecycle/Sources/ServiceLifecycle/AsyncCancelOnGracefulShutdownSequence.swift": {
+    "dependencies": "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/ServiceLifecycle.build/AsyncCancelOnGracefulShutdownSequence.d",
+    "object": "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/ServiceLifecycle.build/AsyncCancelOnGracefulShutdownSequence.swift.o",
+    "swiftmodule": "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/ServiceLifecycle.build/AsyncCancelOnGracefulShutdownSequence~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/ServiceLifecycle.build/AsyncCancelOnGracefulShutdownSequence.swiftdeps"
+  },
+  "/home/runner/work/mcp-swift/mcp-swift/.build/checkouts/swift-service-lifecycle/Sources/ServiceLifecycle/AsyncGracefulShutdownSequence.swift": {
+    "dependencies": "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/ServiceLifecycle.build/AsyncGracefulShutdownSequence.d",
+    "object": "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/ServiceLifecycle.build/AsyncGracefulShutdownSequence.swift.o",
+    "swiftmodule": "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/ServiceLifecycle.build/AsyncGracefulShutdownSequence~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/ServiceLifecycle.build/AsyncGracefulShutdownSequence.swiftdeps"
+  },
+  "/home/runner/work/mcp-swift/mcp-swift/.build/checkouts/swift-service-lifecycle/Sources/ServiceLifecycle/CancellationWaiter.swift": {
+    "dependencies": "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/ServiceLifecycle.build/CancellationWaiter.d",
+    "object": "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/ServiceLifecycle.build/CancellationWaiter.swift.o",
+    "swiftmodule": "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/ServiceLifecycle.build/CancellationWaiter~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/ServiceLifecycle.build/CancellationWaiter.swiftdeps"
+  },
+  "/home/runner/work/mcp-swift/mcp-swift/.build/checkouts/swift-service-lifecycle/Sources/ServiceLifecycle/GracefulShutdown.swift": {
+    "dependencies": "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/ServiceLifecycle.build/GracefulShutdown.d",
+    "object": "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/ServiceLifecycle.build/GracefulShutdown.swift.o",
+    "swiftmodule": "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/ServiceLifecycle.build/GracefulShutdown~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/ServiceLifecycle.build/GracefulShutdown.swiftdeps"
+  },
+  "/home/runner/work/mcp-swift/mcp-swift/.build/checkouts/swift-service-lifecycle/Sources/ServiceLifecycle/Service.swift": {
+    "dependencies": "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/ServiceLifecycle.build/Service.d",
+    "object": "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/ServiceLifecycle.build/Service.swift.o",
+    "swiftmodule": "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/ServiceLifecycle.build/Service~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/ServiceLifecycle.build/Service.swiftdeps"
+  },
+  "/home/runner/work/mcp-swift/mcp-swift/.build/checkouts/swift-service-lifecycle/Sources/ServiceLifecycle/ServiceGroup.swift": {
+    "dependencies": "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/ServiceLifecycle.build/ServiceGroup.d",
+    "object": "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/ServiceLifecycle.build/ServiceGroup.swift.o",
+    "swiftmodule": "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/ServiceLifecycle.build/ServiceGroup~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/ServiceLifecycle.build/ServiceGroup.swiftdeps"
+  },
+  "/home/runner/work/mcp-swift/mcp-swift/.build/checkouts/swift-service-lifecycle/Sources/ServiceLifecycle/ServiceGroupConfiguration.swift": {
+    "dependencies": "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/ServiceLifecycle.build/ServiceGroupConfiguration.d",
+    "object": "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/ServiceLifecycle.build/ServiceGroupConfiguration.swift.o",
+    "swiftmodule": "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/ServiceLifecycle.build/ServiceGroupConfiguration~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/ServiceLifecycle.build/ServiceGroupConfiguration.swiftdeps"
+  },
+  "/home/runner/work/mcp-swift/mcp-swift/.build/checkouts/swift-service-lifecycle/Sources/ServiceLifecycle/ServiceRunnerError.swift": {
+    "dependencies": "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/ServiceLifecycle.build/ServiceRunnerError.d",
+    "object": "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/ServiceLifecycle.build/ServiceRunnerError.swift.o",
+    "swiftmodule": "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/ServiceLifecycle.build/ServiceRunnerError~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/ServiceLifecycle.build/ServiceRunnerError.swiftdeps"
+  }
+}

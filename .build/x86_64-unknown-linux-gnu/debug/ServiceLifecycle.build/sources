@@ -1,0 +1,8 @@
+/home/runner/work/mcp-swift/mcp-swift/.build/checkouts/swift-service-lifecycle/Sources/ServiceLifecycle/AsyncCancelOnGracefulShutdownSequence.swift
+/home/runner/work/mcp-swift/mcp-swift/.build/checkouts/swift-service-lifecycle/Sources/ServiceLifecycle/AsyncGracefulShutdownSequence.swift
+/home/runner/work/mcp-swift/mcp-swift/.build/checkouts/swift-service-lifecycle/Sources/ServiceLifecycle/CancellationWaiter.swift
+/home/runner/work/mcp-swift/mcp-swift/.build/checkouts/swift-service-lifecycle/Sources/ServiceLifecycle/GracefulShutdown.swift
+/home/runner/work/mcp-swift/mcp-swift/.build/checkouts/swift-service-lifecycle/Sources/ServiceLifecycle/Service.swift
+/home/runner/work/mcp-swift/mcp-swift/.build/checkouts/swift-service-lifecycle/Sources/ServiceLifecycle/ServiceGroup.swift
+/home/runner/work/mcp-swift/mcp-swift/.build/checkouts/swift-service-lifecycle/Sources/ServiceLifecycle/ServiceGroupConfiguration.swift
+/home/runner/work/mcp-swift/mcp-swift/.build/checkouts/swift-service-lifecycle/Sources/ServiceLifecycle/ServiceRunnerError.swift

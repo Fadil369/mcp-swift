@@ -1,0 +1,166 @@
+{
+  "object" : {
+    "artifacts" : [
+
+    ],
+    "dependencies" : [
+      {
+        "basedOn" : null,
+        "packageRef" : {
+          "identity" : "swift-argument-parser",
+          "kind" : "remoteSourceControl",
+          "location" : "https://github.com/apple/swift-argument-parser.git",
+          "name" : "swift-argument-parser"
+        },
+        "state" : {
+          "checkoutState" : {
+            "revision" : "309a47b2b1d9b5e991f36961c983ecec72275be3",
+            "version" : "1.6.1"
+          },
+          "name" : "sourceControlCheckout"
+        },
+        "subpath" : "swift-argument-parser"
+      },
+      {
+        "basedOn" : null,
+        "packageRef" : {
+          "identity" : "swift-asn1",
+          "kind" : "remoteSourceControl",
+          "location" : "https://github.com/apple/swift-asn1.git",
+          "name" : "swift-asn1"
+        },
+        "state" : {
+          "checkoutState" : {
+            "revision" : "f70225981241859eb4aa1a18a75531d26637c8cc",
+            "version" : "1.4.0"
+          },
+          "name" : "sourceControlCheckout"
+        },
+        "subpath" : "swift-asn1"
+      },
+      {
+        "basedOn" : null,
+        "packageRef" : {
+          "identity" : "swift-async-algorithms",
+          "kind" : "remoteSourceControl",
+          "location" : "https://github.com/apple/swift-async-algorithms.git",
+          "name" : "swift-async-algorithms"
+        },
+        "state" : {
+          "checkoutState" : {
+            "revision" : "042e1c4d9d19748c9c228f8d4ebc97bb1e339b0b",
+            "version" : "1.0.4"
+          },
+          "name" : "sourceControlCheckout"
+        },
+        "subpath" : "swift-async-algorithms"
+      },
+      {
+        "basedOn" : null,
+        "packageRef" : {
+          "identity" : "swift-collections",
+          "kind" : "remoteSourceControl",
+          "location" : "https://github.com/apple/swift-collections.git",
+          "name" : "swift-collections"
+        },
+        "state" : {
+          "checkoutState" : {
+            "revision" : "c1805596154bb3a265fd91b8ac0c4433b4348fb0",
+            "version" : "1.2.0"
+          },
+          "name" : "sourceControlCheckout"
+        },
+        "subpath" : "swift-collections"
+      },
+      {
+        "basedOn" : null,
+        "packageRef" : {
+          "identity" : "swift-crypto",
+          "kind" : "remoteSourceControl",
+          "location" : "https://github.com/apple/swift-crypto.git",
+          "name" : "swift-crypto"
+        },
+        "state" : {
+          "checkoutState" : {
+            "revision" : "e8d6eba1fef23ae5b359c46b03f7d94be2f41fed",
+            "version" : "3.12.3"
+          },
+          "name" : "sourceControlCheckout"
+        },
+        "subpath" : "swift-crypto"
+      },
+      {
+        "basedOn" : null,
+        "packageRef" : {
+          "identity" : "swift-log",
+          "kind" : "remoteSourceControl",
+          "location" : "https://github.com/apple/swift-log.git",
+          "name" : "swift-log"
+        },
+        "state" : {
+          "checkoutState" : {
+            "revision" : "3d8596ed08bd13520157f0355e35caed215ffbfa",
+            "version" : "1.6.3"
+          },
+          "name" : "sourceControlCheckout"
+        },
+        "subpath" : "swift-log"
+      },
+      {
+        "basedOn" : null,
+        "packageRef" : {
+          "identity" : "swift-sdk",
+          "kind" : "remoteSourceControl",
+          "location" : "https://github.com/modelcontextprotocol/swift-sdk.git",
+          "name" : "mcp-swift-sdk"
+        },
+        "state" : {
+          "checkoutState" : {
+            "revision" : "9742933d2ff250212a04aed39b123bcc63a21e9c",
+            "version" : "0.9.0"
+          },
+          "name" : "sourceControlCheckout"
+        },
+        "subpath" : "swift-sdk"
+      },
+      {
+        "basedOn" : null,
+        "packageRef" : {
+          "identity" : "swift-service-lifecycle",
+          "kind" : "remoteSourceControl",
+          "location" : "https://github.com/swift-server/swift-service-lifecycle.git",
+          "name" : "swift-service-lifecycle"
+        },
+        "state" : {
+          "checkoutState" : {
+            "revision" : "e7187309187695115033536e8fc9b2eb87fd956d",
+            "version" : "2.8.0"
+          },
+          "name" : "sourceControlCheckout"
+        },
+        "subpath" : "swift-service-lifecycle"
+      },
+      {
+        "basedOn" : null,
+        "packageRef" : {
+          "identity" : "swift-system",
+          "kind" : "remoteSourceControl",
+          "location" : "https://github.com/apple/swift-system.git",
+          "name" : "swift-system"
+        },
+        "state" : {
+          "checkoutState" : {
+            "revision" : "61e4ca4b81b9e09e2ec863b00c340eb13497dac6",
+            "version" : "1.5.0"
+          },
+          "name" : "sourceControlCheckout"
+        },
+        "subpath" : "swift-system"
+      }
+    ],
+    "prebuilts" : [
+
+    ]
+  },
+  "version" : 7
+}

@@ -1,6 +1,10 @@
 {
   "builtTestProducts" : [
-
+    {
+      "binaryPath" : "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/BrainSAIT-MCPPackageTests.xctest",
+      "packagePath" : "/home/runner/work/mcp-swift/mcp-swift",
+      "productName" : "BrainSAIT-MCPPackageTests"
+    }
   ],
   "copyCommands" : {
 
@@ -12,7 +16,8 @@
   },
   "generatedSourceTargetSet" : [
     "GenerateManual",
-    "GenerateDoccReference"
+    "GenerateDoccReference",
+    "BrainSAIT_MCPPackageDiscoveredTests"
   ],
   "pluginDescriptions" : [
     {
@@ -2530,14 +2535,18 @@
       "tempsPath" : "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/BitCollections.build",
       "wholeModuleOptimization" : false
     },
-    "C.BrainSAITClient-x86_64-unknown-linux-gnu-debug.module" : {
+    "C.BrainSAIT-MCPPackageDiscoveredTests-x86_64-unknown-linux-gnu-debug.module" : {
       "executable" : "/usr/share/swift/usr/bin/swiftc",
-      "fileList" : "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/BrainSAITClient.build/sources",
+      "fileList" : "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/BrainSAIT_MCPPackageDiscoveredTests.build/sources",
       "importPath" : "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/Modules",
       "inputs" : [
         {
           "kind" : "file",
-          "name" : "/home/runner/work/mcp-swift/mcp-swift/Sources/BrainSAITClient/main.swift"
+          "name" : "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/BrainSAIT-MCPPackageDiscoveredTests.derived/BrainSAITMCPTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/BrainSAIT-MCPPackageDiscoveredTests.derived/all-discovered-tests.swift"
         },
         {
           "kind" : "file",
@@ -2545,22 +2554,19 @@
         },
         {
           "kind" : "file",
-          "name" : "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/Modules/BrainSAITMCP.swiftmodule"
+          "name" : "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/Modules/BrainSAITMCPTests.swiftmodule"
         },
         {
           "kind" : "file",
-          "name" : "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/Modules/ArgumentParser.swiftmodule"
-        },
-        {
-          "kind" : "file",
-          "name" : "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/BrainSAITClient.build/sources"
+          "name" : "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/BrainSAIT_MCPPackageDiscoveredTests.build/sources"
         }
       ],
-      "isLibrary" : false,
-      "moduleName" : "BrainSAITClient",
-      "moduleOutputPath" : "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/Modules/BrainSAITClient.swiftmodule",
+      "isLibrary" : true,
+      "moduleName" : "BrainSAIT_MCPPackageDiscoveredTests",
+      "moduleOutputPath" : "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/Modules/BrainSAIT_MCPPackageDiscoveredTests.swiftmodule",
       "objects" : [
-        "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/BrainSAITClient.build/main.swift.o"
+        "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/BrainSAIT_MCPPackageDiscoveredTests.build/BrainSAITMCPTests.swift.o",
+        "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/BrainSAIT_MCPPackageDiscoveredTests.build/all-discovered-tests.swift.o"
       ],
       "otherArguments" : [
         "-target",
@@ -2570,6 +2576,8 @@
         "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/index/store",
         "-Onone",
         "-enable-testing",
+        "-Xfrontend",
+        "-enable-cross-import-overlays",
         "-j4",
         "-DSWIFT_PACKAGE",
         "-DDEBUG",
@@ -2594,14 +2602,8 @@
         "-module-cache-path",
         "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/ModuleCache",
         "-parseable-output",
-        "-Xfrontend",
-        "-entry-point-function-name",
-        "-Xfrontend",
-        "BrainSAITClient_main",
         "-parse-as-library",
         "-color-diagnostics",
-        "-swift-version",
-        "6",
         "-g",
         "-Xcc",
         "-fPIC",
@@ -2612,32 +2614,133 @@
         "-Xcc",
         "-fno-omit-frame-pointer"
       ],
-      "outputFileMapPath" : "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/BrainSAITClient.build/output-file-map.json",
+      "outputFileMapPath" : "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/BrainSAIT_MCPPackageDiscoveredTests.build/output-file-map.json",
       "outputs" : [
         {
           "kind" : "file",
-          "name" : "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/BrainSAITClient.build/main.swift.o"
+          "name" : "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/BrainSAIT_MCPPackageDiscoveredTests.build/BrainSAITMCPTests.swift.o"
         },
         {
           "kind" : "file",
-          "name" : "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/Modules/BrainSAITClient.swiftmodule"
+          "name" : "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/BrainSAIT_MCPPackageDiscoveredTests.build/all-discovered-tests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/Modules/BrainSAIT_MCPPackageDiscoveredTests.swiftmodule"
         }
       ],
       "prepareForIndexing" : false,
       "sources" : [
-        "/home/runner/work/mcp-swift/mcp-swift/Sources/BrainSAITClient/main.swift"
+        "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/BrainSAIT-MCPPackageDiscoveredTests.derived/BrainSAITMCPTests.swift",
+        "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/BrainSAIT-MCPPackageDiscoveredTests.derived/all-discovered-tests.swift"
       ],
-      "tempsPath" : "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/BrainSAITClient.build",
+      "tempsPath" : "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/BrainSAIT_MCPPackageDiscoveredTests.build",
       "wholeModuleOptimization" : false
     },
-    "C.BrainSAITHealthcareServer-x86_64-unknown-linux-gnu-debug.module" : {
+    "C.BrainSAIT-MCPPackageTests-x86_64-unknown-linux-gnu-debug.module" : {
       "executable" : "/usr/share/swift/usr/bin/swiftc",
-      "fileList" : "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/BrainSAITHealthcareServer.build/sources",
+      "fileList" : "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/BrainSAIT_MCPPackageTests.build/sources",
       "importPath" : "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/Modules",
       "inputs" : [
         {
           "kind" : "file",
-          "name" : "/home/runner/work/mcp-swift/mcp-swift/Sources/BrainSAITHealthcareServer/main.swift"
+          "name" : "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/BrainSAIT-MCPPackageTests.derived/runner.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/swift-version--1BFCD5C06E9F820A.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/Modules/BrainSAITMCPTests.swiftmodule"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/Modules/BrainSAIT_MCPPackageDiscoveredTests.swiftmodule"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/BrainSAIT_MCPPackageTests.build/sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "BrainSAIT_MCPPackageTests",
+      "moduleOutputPath" : "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/Modules/BrainSAIT_MCPPackageTests.swiftmodule",
+      "objects" : [
+        "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/BrainSAIT_MCPPackageTests.build/runner.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "x86_64-unknown-linux-gnu",
+        "-enable-batch-mode",
+        "-index-store-path",
+        "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-Xfrontend",
+        "-enable-cross-import-overlays",
+        "-j4",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-Xcc",
+        "-fmodule-map-file=/home/runner/work/mcp-swift/mcp-swift/.build/checkouts/swift-crypto/Sources/CCryptoBoringSSLShims/include/module.modulemap",
+        "-Xcc",
+        "-I",
+        "-Xcc",
+        "/home/runner/work/mcp-swift/mcp-swift/.build/checkouts/swift-crypto/Sources/CCryptoBoringSSLShims/include",
+        "-Xcc",
+        "-fmodule-map-file=/home/runner/work/mcp-swift/mcp-swift/.build/checkouts/swift-crypto/Sources/CCryptoBoringSSL/include/module.modulemap",
+        "-Xcc",
+        "-I",
+        "-Xcc",
+        "/home/runner/work/mcp-swift/mcp-swift/.build/checkouts/swift-crypto/Sources/CCryptoBoringSSL/include",
+        "-Xcc",
+        "-fmodule-map-file=/home/runner/work/mcp-swift/mcp-swift/.build/checkouts/swift-system/Sources/CSystem/include/module.modulemap",
+        "-Xcc",
+        "-I",
+        "-Xcc",
+        "/home/runner/work/mcp-swift/mcp-swift/.build/checkouts/swift-system/Sources/CSystem/include",
+        "-module-cache-path",
+        "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-color-diagnostics",
+        "-g",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "mcp_swift",
+        "-Xcc",
+        "-fno-omit-frame-pointer"
+      ],
+      "outputFileMapPath" : "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/BrainSAIT_MCPPackageTests.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/BrainSAIT_MCPPackageTests.build/runner.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/Modules/BrainSAIT_MCPPackageTests.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/BrainSAIT-MCPPackageTests.derived/runner.swift"
+      ],
+      "tempsPath" : "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/BrainSAIT_MCPPackageTests.build",
+      "wholeModuleOptimization" : false
+    },
+    "C.BrainSAITDemo-x86_64-unknown-linux-gnu-debug.module" : {
+      "executable" : "/usr/share/swift/usr/bin/swiftc",
+      "fileList" : "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/BrainSAITDemo.build/sources",
+      "importPath" : "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/mcp-swift/mcp-swift/Sources/BrainSAITDemo/main.swift"
         },
         {
           "kind" : "file",
@@ -2649,18 +2752,14 @@
         },
         {
           "kind" : "file",
-          "name" : "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/Modules/ArgumentParser.swiftmodule"
-        },
-        {
-          "kind" : "file",
-          "name" : "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/BrainSAITHealthcareServer.build/sources"
+          "name" : "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/BrainSAITDemo.build/sources"
         }
       ],
       "isLibrary" : false,
-      "moduleName" : "BrainSAITHealthcareServer",
-      "moduleOutputPath" : "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/Modules/BrainSAITHealthcareServer.swiftmodule",
+      "moduleName" : "BrainSAITDemo",
+      "moduleOutputPath" : "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/Modules/BrainSAITDemo.swiftmodule",
       "objects" : [
-        "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/BrainSAITHealthcareServer.build/main.swift.o"
+        "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/BrainSAITDemo.build/main.swift.o"
       ],
       "otherArguments" : [
         "-target",
@@ -2697,7 +2796,7 @@
         "-Xfrontend",
         "-entry-point-function-name",
         "-Xfrontend",
-        "BrainSAITHealthcareServer_main",
+        "BrainSAITDemo_main",
         "-parse-as-library",
         "-color-diagnostics",
         "-swift-version",
@@ -2712,22 +2811,22 @@
         "-Xcc",
         "-fno-omit-frame-pointer"
       ],
-      "outputFileMapPath" : "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/BrainSAITHealthcareServer.build/output-file-map.json",
+      "outputFileMapPath" : "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/BrainSAITDemo.build/output-file-map.json",
       "outputs" : [
         {
           "kind" : "file",
-          "name" : "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/BrainSAITHealthcareServer.build/main.swift.o"
+          "name" : "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/BrainSAITDemo.build/main.swift.o"
         },
         {
           "kind" : "file",
-          "name" : "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/Modules/BrainSAITHealthcareServer.swiftmodule"
+          "name" : "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/Modules/BrainSAITDemo.swiftmodule"
         }
       ],
       "prepareForIndexing" : false,
       "sources" : [
-        "/home/runner/work/mcp-swift/mcp-swift/Sources/BrainSAITHealthcareServer/main.swift"
+        "/home/runner/work/mcp-swift/mcp-swift/Sources/BrainSAITDemo/main.swift"
       ],
-      "tempsPath" : "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/BrainSAITHealthcareServer.build",
+      "tempsPath" : "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/BrainSAITDemo.build",
       "wholeModuleOptimization" : false
     },
     "C.BrainSAITMCP-x86_64-unknown-linux-gnu-debug.module" : {
@@ -2737,19 +2836,11 @@
       "inputs" : [
         {
           "kind" : "file",
-          "name" : "/home/runner/work/mcp-swift/mcp-swift/Sources/BrainSAITMCP/BrainSAITClient.swift"
-        },
-        {
-          "kind" : "file",
           "name" : "/home/runner/work/mcp-swift/mcp-swift/Sources/BrainSAITMCP/BrainSAITCore.swift"
         },
         {
           "kind" : "file",
-          "name" : "/home/runner/work/mcp-swift/mcp-swift/Sources/BrainSAITMCP/BrainSAITServer.swift"
-        },
-        {
-          "kind" : "file",
-          "name" : "/home/runner/work/mcp-swift/mcp-swift/Sources/BrainSAITMCP/TransportFactory.swift"
+          "name" : "/home/runner/work/mcp-swift/mcp-swift/Sources/BrainSAITMCP/BrainSAITExample.swift"
         },
         {
           "kind" : "file",
@@ -2780,10 +2871,8 @@
       "moduleName" : "BrainSAITMCP",
       "moduleOutputPath" : "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/Modules/BrainSAITMCP.swiftmodule",
       "objects" : [
-        "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/BrainSAITMCP.build/BrainSAITClient.swift.o",
         "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/BrainSAITMCP.build/BrainSAITCore.swift.o",
-        "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/BrainSAITMCP.build/BrainSAITServer.swift.o",
-        "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/BrainSAITMCP.build/TransportFactory.swift.o"
+        "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/BrainSAITMCP.build/BrainSAITExample.swift.o"
       ],
       "otherArguments" : [
         "-target",
@@ -2835,19 +2924,11 @@
       "outputs" : [
         {
           "kind" : "file",
-          "name" : "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/BrainSAITMCP.build/BrainSAITClient.swift.o"
-        },
-        {
-          "kind" : "file",
           "name" : "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/BrainSAITMCP.build/BrainSAITCore.swift.o"
         },
         {
           "kind" : "file",
-          "name" : "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/BrainSAITMCP.build/BrainSAITServer.swift.o"
-        },
-        {
-          "kind" : "file",
-          "name" : "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/BrainSAITMCP.build/TransportFactory.swift.o"
+          "name" : "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/BrainSAITMCP.build/BrainSAITExample.swift.o"
         },
         {
           "kind" : "file",
@@ -2856,12 +2937,104 @@
       ],
       "prepareForIndexing" : false,
       "sources" : [
-        "/home/runner/work/mcp-swift/mcp-swift/Sources/BrainSAITMCP/BrainSAITClient.swift",
         "/home/runner/work/mcp-swift/mcp-swift/Sources/BrainSAITMCP/BrainSAITCore.swift",
-        "/home/runner/work/mcp-swift/mcp-swift/Sources/BrainSAITMCP/BrainSAITServer.swift",
-        "/home/runner/work/mcp-swift/mcp-swift/Sources/BrainSAITMCP/TransportFactory.swift"
+        "/home/runner/work/mcp-swift/mcp-swift/Sources/BrainSAITMCP/BrainSAITExample.swift"
       ],
       "tempsPath" : "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/BrainSAITMCP.build",
+      "wholeModuleOptimization" : false
+    },
+    "C.BrainSAITMCPTests-x86_64-unknown-linux-gnu-debug.module" : {
+      "executable" : "/usr/share/swift/usr/bin/swiftc",
+      "fileList" : "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/BrainSAITMCPTests.build/sources",
+      "importPath" : "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/mcp-swift/mcp-swift/Tests/BrainSAITMCPTests/BrainSAITMCPTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/swift-version--1BFCD5C06E9F820A.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/Modules/BrainSAITMCP.swiftmodule"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/BrainSAITMCPTests.build/sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "BrainSAITMCPTests",
+      "moduleOutputPath" : "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/Modules/BrainSAITMCPTests.swiftmodule",
+      "objects" : [
+        "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/BrainSAITMCPTests.build/BrainSAITMCPTests.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "x86_64-unknown-linux-gnu",
+        "-enable-batch-mode",
+        "-index-store-path",
+        "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-Xfrontend",
+        "-enable-cross-import-overlays",
+        "-j4",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-Xcc",
+        "-fmodule-map-file=/home/runner/work/mcp-swift/mcp-swift/.build/checkouts/swift-crypto/Sources/CCryptoBoringSSLShims/include/module.modulemap",
+        "-Xcc",
+        "-I",
+        "-Xcc",
+        "/home/runner/work/mcp-swift/mcp-swift/.build/checkouts/swift-crypto/Sources/CCryptoBoringSSLShims/include",
+        "-Xcc",
+        "-fmodule-map-file=/home/runner/work/mcp-swift/mcp-swift/.build/checkouts/swift-crypto/Sources/CCryptoBoringSSL/include/module.modulemap",
+        "-Xcc",
+        "-I",
+        "-Xcc",
+        "/home/runner/work/mcp-swift/mcp-swift/.build/checkouts/swift-crypto/Sources/CCryptoBoringSSL/include",
+        "-Xcc",
+        "-fmodule-map-file=/home/runner/work/mcp-swift/mcp-swift/.build/checkouts/swift-system/Sources/CSystem/include/module.modulemap",
+        "-Xcc",
+        "-I",
+        "-Xcc",
+        "/home/runner/work/mcp-swift/mcp-swift/.build/checkouts/swift-system/Sources/CSystem/include",
+        "-module-cache-path",
+        "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-color-diagnostics",
+        "-swift-version",
+        "6",
+        "-g",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "mcp_swift",
+        "-Xcc",
+        "-fno-omit-frame-pointer"
+      ],
+      "outputFileMapPath" : "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/BrainSAITMCPTests.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/BrainSAITMCPTests.build/BrainSAITMCPTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/Modules/BrainSAITMCPTests.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/home/runner/work/mcp-swift/mcp-swift/Tests/BrainSAITMCPTests/BrainSAITMCPTests.swift"
+      ],
+      "tempsPath" : "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/BrainSAITMCPTests.build",
       "wholeModuleOptimization" : false
     },
     "C.Collections-x86_64-unknown-linux-gnu-debug.module" : {
@@ -14508,15 +14681,15 @@
       "-driver-use-frontend-path",
       "/usr/share/swift/usr/bin/swiftc"
     ],
-    "BrainSAITClient" : [
+    "BrainSAITDemo" : [
       "/usr/share/swift/usr/bin/swiftc",
       "-module-name",
-      "BrainSAITClient",
+      "BrainSAITDemo",
       "-package-name",
       "mcp_swift",
       "-incremental",
       "-c",
-      "/home/runner/work/mcp-swift/mcp-swift/Sources/BrainSAITClient/main.swift",
+      "/home/runner/work/mcp-swift/mcp-swift/Sources/BrainSAITDemo/main.swift",
       "-I",
       "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/Modules",
       "-target",
@@ -14553,69 +14726,7 @@
       "-Xfrontend",
       "-entry-point-function-name",
       "-Xfrontend",
-      "BrainSAITClient_main",
-      "-parse-as-library",
-      "-color-diagnostics",
-      "-swift-version",
-      "6",
-      "-g",
-      "-Xcc",
-      "-fPIC",
-      "-Xcc",
-      "-g",
-      "-package-name",
-      "mcp_swift",
-      "-Xcc",
-      "-fno-omit-frame-pointer",
-      "-driver-use-frontend-path",
-      "/usr/share/swift/usr/bin/swiftc"
-    ],
-    "BrainSAITHealthcareServer" : [
-      "/usr/share/swift/usr/bin/swiftc",
-      "-module-name",
-      "BrainSAITHealthcareServer",
-      "-package-name",
-      "mcp_swift",
-      "-incremental",
-      "-c",
-      "/home/runner/work/mcp-swift/mcp-swift/Sources/BrainSAITHealthcareServer/main.swift",
-      "-I",
-      "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/Modules",
-      "-target",
-      "x86_64-unknown-linux-gnu",
-      "-enable-batch-mode",
-      "-index-store-path",
-      "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/index/store",
-      "-Onone",
-      "-enable-testing",
-      "-j4",
-      "-DSWIFT_PACKAGE",
-      "-DDEBUG",
-      "-Xcc",
-      "-fmodule-map-file=/home/runner/work/mcp-swift/mcp-swift/.build/checkouts/swift-crypto/Sources/CCryptoBoringSSLShims/include/module.modulemap",
-      "-Xcc",
-      "-I",
-      "-Xcc",
-      "/home/runner/work/mcp-swift/mcp-swift/.build/checkouts/swift-crypto/Sources/CCryptoBoringSSLShims/include",
-      "-Xcc",
-      "-fmodule-map-file=/home/runner/work/mcp-swift/mcp-swift/.build/checkouts/swift-crypto/Sources/CCryptoBoringSSL/include/module.modulemap",
-      "-Xcc",
-      "-I",
-      "-Xcc",
-      "/home/runner/work/mcp-swift/mcp-swift/.build/checkouts/swift-crypto/Sources/CCryptoBoringSSL/include",
-      "-Xcc",
-      "-fmodule-map-file=/home/runner/work/mcp-swift/mcp-swift/.build/checkouts/swift-system/Sources/CSystem/include/module.modulemap",
-      "-Xcc",
-      "-I",
-      "-Xcc",
-      "/home/runner/work/mcp-swift/mcp-swift/.build/checkouts/swift-system/Sources/CSystem/include",
-      "-module-cache-path",
-      "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/ModuleCache",
-      "-parseable-output",
-      "-Xfrontend",
-      "-entry-point-function-name",
-      "-Xfrontend",
-      "BrainSAITHealthcareServer_main",
+      "BrainSAITDemo_main",
       "-parse-as-library",
       "-color-diagnostics",
       "-swift-version",
@@ -14640,10 +14751,8 @@
       "mcp_swift",
       "-incremental",
       "-c",
-      "/home/runner/work/mcp-swift/mcp-swift/Sources/BrainSAITMCP/BrainSAITClient.swift",
       "/home/runner/work/mcp-swift/mcp-swift/Sources/BrainSAITMCP/BrainSAITCore.swift",
-      "/home/runner/work/mcp-swift/mcp-swift/Sources/BrainSAITMCP/BrainSAITServer.swift",
-      "/home/runner/work/mcp-swift/mcp-swift/Sources/BrainSAITMCP/TransportFactory.swift",
+      "/home/runner/work/mcp-swift/mcp-swift/Sources/BrainSAITMCP/BrainSAITExample.swift",
       "-I",
       "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/Modules",
       "-target",
@@ -14681,6 +14790,183 @@
       "-color-diagnostics",
       "-swift-version",
       "6",
+      "-g",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "mcp_swift",
+      "-Xcc",
+      "-fno-omit-frame-pointer",
+      "-driver-use-frontend-path",
+      "/usr/share/swift/usr/bin/swiftc"
+    ],
+    "BrainSAITMCPTests" : [
+      "/usr/share/swift/usr/bin/swiftc",
+      "-module-name",
+      "BrainSAITMCPTests",
+      "-package-name",
+      "mcp_swift",
+      "-incremental",
+      "-c",
+      "/home/runner/work/mcp-swift/mcp-swift/Tests/BrainSAITMCPTests/BrainSAITMCPTests.swift",
+      "-I",
+      "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/Modules",
+      "-target",
+      "x86_64-unknown-linux-gnu",
+      "-enable-batch-mode",
+      "-index-store-path",
+      "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-Xfrontend",
+      "-enable-cross-import-overlays",
+      "-j4",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-Xcc",
+      "-fmodule-map-file=/home/runner/work/mcp-swift/mcp-swift/.build/checkouts/swift-crypto/Sources/CCryptoBoringSSLShims/include/module.modulemap",
+      "-Xcc",
+      "-I",
+      "-Xcc",
+      "/home/runner/work/mcp-swift/mcp-swift/.build/checkouts/swift-crypto/Sources/CCryptoBoringSSLShims/include",
+      "-Xcc",
+      "-fmodule-map-file=/home/runner/work/mcp-swift/mcp-swift/.build/checkouts/swift-crypto/Sources/CCryptoBoringSSL/include/module.modulemap",
+      "-Xcc",
+      "-I",
+      "-Xcc",
+      "/home/runner/work/mcp-swift/mcp-swift/.build/checkouts/swift-crypto/Sources/CCryptoBoringSSL/include",
+      "-Xcc",
+      "-fmodule-map-file=/home/runner/work/mcp-swift/mcp-swift/.build/checkouts/swift-system/Sources/CSystem/include/module.modulemap",
+      "-Xcc",
+      "-I",
+      "-Xcc",
+      "/home/runner/work/mcp-swift/mcp-swift/.build/checkouts/swift-system/Sources/CSystem/include",
+      "-module-cache-path",
+      "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-color-diagnostics",
+      "-swift-version",
+      "6",
+      "-g",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "mcp_swift",
+      "-Xcc",
+      "-fno-omit-frame-pointer",
+      "-driver-use-frontend-path",
+      "/usr/share/swift/usr/bin/swiftc"
+    ],
+    "BrainSAIT_MCPPackageDiscoveredTests" : [
+      "/usr/share/swift/usr/bin/swiftc",
+      "-module-name",
+      "BrainSAIT_MCPPackageDiscoveredTests",
+      "-package-name",
+      "mcp_swift",
+      "-incremental",
+      "-c",
+      "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/BrainSAIT-MCPPackageDiscoveredTests.derived/BrainSAITMCPTests.swift",
+      "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/BrainSAIT-MCPPackageDiscoveredTests.derived/all-discovered-tests.swift",
+      "-I",
+      "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/Modules",
+      "-target",
+      "x86_64-unknown-linux-gnu",
+      "-enable-batch-mode",
+      "-index-store-path",
+      "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-Xfrontend",
+      "-enable-cross-import-overlays",
+      "-j4",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-Xcc",
+      "-fmodule-map-file=/home/runner/work/mcp-swift/mcp-swift/.build/checkouts/swift-crypto/Sources/CCryptoBoringSSLShims/include/module.modulemap",
+      "-Xcc",
+      "-I",
+      "-Xcc",
+      "/home/runner/work/mcp-swift/mcp-swift/.build/checkouts/swift-crypto/Sources/CCryptoBoringSSLShims/include",
+      "-Xcc",
+      "-fmodule-map-file=/home/runner/work/mcp-swift/mcp-swift/.build/checkouts/swift-crypto/Sources/CCryptoBoringSSL/include/module.modulemap",
+      "-Xcc",
+      "-I",
+      "-Xcc",
+      "/home/runner/work/mcp-swift/mcp-swift/.build/checkouts/swift-crypto/Sources/CCryptoBoringSSL/include",
+      "-Xcc",
+      "-fmodule-map-file=/home/runner/work/mcp-swift/mcp-swift/.build/checkouts/swift-system/Sources/CSystem/include/module.modulemap",
+      "-Xcc",
+      "-I",
+      "-Xcc",
+      "/home/runner/work/mcp-swift/mcp-swift/.build/checkouts/swift-system/Sources/CSystem/include",
+      "-module-cache-path",
+      "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-color-diagnostics",
+      "-g",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "mcp_swift",
+      "-Xcc",
+      "-fno-omit-frame-pointer",
+      "-driver-use-frontend-path",
+      "/usr/share/swift/usr/bin/swiftc"
+    ],
+    "BrainSAIT_MCPPackageTests" : [
+      "/usr/share/swift/usr/bin/swiftc",
+      "-module-name",
+      "BrainSAIT_MCPPackageTests",
+      "-package-name",
+      "mcp_swift",
+      "-incremental",
+      "-c",
+      "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/BrainSAIT-MCPPackageTests.derived/runner.swift",
+      "-I",
+      "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/Modules",
+      "-target",
+      "x86_64-unknown-linux-gnu",
+      "-enable-batch-mode",
+      "-index-store-path",
+      "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-Xfrontend",
+      "-enable-cross-import-overlays",
+      "-j4",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-Xcc",
+      "-fmodule-map-file=/home/runner/work/mcp-swift/mcp-swift/.build/checkouts/swift-crypto/Sources/CCryptoBoringSSLShims/include/module.modulemap",
+      "-Xcc",
+      "-I",
+      "-Xcc",
+      "/home/runner/work/mcp-swift/mcp-swift/.build/checkouts/swift-crypto/Sources/CCryptoBoringSSLShims/include",
+      "-Xcc",
+      "-fmodule-map-file=/home/runner/work/mcp-swift/mcp-swift/.build/checkouts/swift-crypto/Sources/CCryptoBoringSSL/include/module.modulemap",
+      "-Xcc",
+      "-I",
+      "-Xcc",
+      "/home/runner/work/mcp-swift/mcp-swift/.build/checkouts/swift-crypto/Sources/CCryptoBoringSSL/include",
+      "-Xcc",
+      "-fmodule-map-file=/home/runner/work/mcp-swift/mcp-swift/.build/checkouts/swift-system/Sources/CSystem/include/module.modulemap",
+      "-Xcc",
+      "-I",
+      "-Xcc",
+      "/home/runner/work/mcp-swift/mcp-swift/.build/checkouts/swift-system/Sources/CSystem/include",
+      "-module-cache-path",
+      "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-color-diagnostics",
       "-g",
       "-Xcc",
       "-fPIC",
@@ -16083,29 +16369,7 @@
     "BitCollections" : [
       "InternalCollectionsUtilities"
     ],
-    "BrainSAITClient" : [
-      "ArgumentParser",
-      "ArgumentParserToolInfo",
-      "BrainSAITMCP",
-      "Crypto",
-      "CryptoBoringWrapper",
-      "CCryptoBoringSSLShims",
-      "CCryptoBoringSSL",
-      "ServiceLifecycle",
-      "AsyncAlgorithms",
-      "DequeModule",
-      "OrderedCollections",
-      "InternalCollectionsUtilities",
-      "UnixSignals",
-      "ConcurrencyHelpers",
-      "MCP",
-      "Logging",
-      "SystemPackage",
-      "CSystem"
-    ],
-    "BrainSAITHealthcareServer" : [
-      "ArgumentParser",
-      "ArgumentParserToolInfo",
+    "BrainSAITDemo" : [
       "BrainSAITMCP",
       "Crypto",
       "CryptoBoringWrapper",
@@ -16124,6 +16388,63 @@
       "CSystem"
     ],
     "BrainSAITMCP" : [
+      "Crypto",
+      "CryptoBoringWrapper",
+      "CCryptoBoringSSLShims",
+      "CCryptoBoringSSL",
+      "ServiceLifecycle",
+      "AsyncAlgorithms",
+      "DequeModule",
+      "OrderedCollections",
+      "InternalCollectionsUtilities",
+      "UnixSignals",
+      "ConcurrencyHelpers",
+      "MCP",
+      "Logging",
+      "SystemPackage",
+      "CSystem"
+    ],
+    "BrainSAITMCPTests" : [
+      "BrainSAITMCP",
+      "Crypto",
+      "CryptoBoringWrapper",
+      "CCryptoBoringSSLShims",
+      "CCryptoBoringSSL",
+      "ServiceLifecycle",
+      "AsyncAlgorithms",
+      "DequeModule",
+      "OrderedCollections",
+      "InternalCollectionsUtilities",
+      "UnixSignals",
+      "ConcurrencyHelpers",
+      "MCP",
+      "Logging",
+      "SystemPackage",
+      "CSystem"
+    ],
+    "BrainSAIT_MCPPackageDiscoveredTests" : [
+      "BrainSAITMCPTests",
+      "BrainSAITMCP",
+      "Crypto",
+      "CryptoBoringWrapper",
+      "CCryptoBoringSSLShims",
+      "CCryptoBoringSSL",
+      "ServiceLifecycle",
+      "AsyncAlgorithms",
+      "DequeModule",
+      "OrderedCollections",
+      "InternalCollectionsUtilities",
+      "UnixSignals",
+      "ConcurrencyHelpers",
+      "MCP",
+      "Logging",
+      "SystemPackage",
+      "CSystem"
+    ],
+    "BrainSAIT_MCPPackageTests" : [
+      "BrainSAIT_MCPPackageDiscoveredTests",
+      "BrainSAITMCPTests",
+      "BrainSAITMCP",
       "Crypto",
       "CryptoBoringWrapper",
       "CCryptoBoringSSLShims",
@@ -16241,10 +16562,40 @@
     ]
   },
   "testDiscoveryCommands" : {
-
+    "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/BrainSAIT-MCPPackageDiscoveredTests.derived/all-discovered-tests.swift" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/BrainSAITMCPTests.build/BrainSAITMCPTests.swift.o"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/BrainSAIT-MCPPackageDiscoveredTests.derived/BrainSAITMCPTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/BrainSAIT-MCPPackageDiscoveredTests.derived/all-discovered-tests.swift"
+        }
+      ]
+    }
   },
   "testEntryPointCommands" : {
-
+    "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/BrainSAIT-MCPPackageTests.derived/runner.swift" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/Modules/BrainSAIT_MCPPackageDiscoveredTests.swiftmodule"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/BrainSAIT-MCPPackageTests.derived/runner.swift"
+        }
+      ]
+    }
   },
   "traitConfiguration" : {
     "enableAllTraits" : false
@@ -17146,234 +17497,12 @@
       ],
       "outputFilePath" : "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/BitCollections.build/sources"
     },
-    "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/BrainSAITClient.build/sources" : {
-      "alwaysOutOfDate" : false,
-      "inputs" : [
-        {
-          "kind" : "virtual",
-          "name" : "<sources-file-list>"
-        },
-        {
-          "kind" : "file",
-          "name" : "/home/runner/work/mcp-swift/mcp-swift/Sources/BrainSAITClient/main.swift"
-        }
-      ],
-      "outputFilePath" : "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/BrainSAITClient.build/sources"
-    },
-    "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/BrainSAITClient.product/Objects.LinkFileList" : {
+    "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/BrainSAIT-MCPPackageTests.product/Objects.LinkFileList" : {
       "alwaysOutOfDate" : false,
       "inputs" : [
         {
           "kind" : "virtual",
           "name" : "<link-file-list>"
-        },
-        {
-          "kind" : "file",
-          "name" : "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/ArgumentParser.build/Argument.swift.o"
-        },
-        {
-          "kind" : "file",
-          "name" : "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/ArgumentParser.build/ArgumentDecoder.swift.o"
-        },
-        {
-          "kind" : "file",
-          "name" : "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/ArgumentParser.build/ArgumentDefinition.swift.o"
-        },
-        {
-          "kind" : "file",
-          "name" : "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/ArgumentParser.build/ArgumentDiscussion.swift.o"
-        },
-        {
-          "kind" : "file",
-          "name" : "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/ArgumentParser.build/ArgumentHelp.swift.o"
-        },
-        {
-          "kind" : "file",
-          "name" : "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/ArgumentParser.build/ArgumentParser.swiftmodule.o"
-        },
-        {
-          "kind" : "file",
-          "name" : "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/ArgumentParser.build/ArgumentSet.swift.o"
-        },
-        {
-          "kind" : "file",
-          "name" : "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/ArgumentParser.build/ArgumentVisibility.swift.o"
-        },
-        {
-          "kind" : "file",
-          "name" : "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/ArgumentParser.build/AsyncParsableCommand.swift.o"
-        },
-        {
-          "kind" : "file",
-          "name" : "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/ArgumentParser.build/BashCompletionsGenerator.swift.o"
-        },
-        {
-          "kind" : "file",
-          "name" : "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/ArgumentParser.build/CodingKeyValidator.swift.o"
-        },
-        {
-          "kind" : "file",
-          "name" : "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/ArgumentParser.build/CollectionExtensions.swift.o"
-        },
-        {
-          "kind" : "file",
-          "name" : "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/ArgumentParser.build/CommandConfiguration.swift.o"
-        },
-        {
-          "kind" : "file",
-          "name" : "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/ArgumentParser.build/CommandGroup.swift.o"
-        },
-        {
-          "kind" : "file",
-          "name" : "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/ArgumentParser.build/CommandParser.swift.o"
-        },
-        {
-          "kind" : "file",
-          "name" : "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/ArgumentParser.build/CompletionKind.swift.o"
-        },
-        {
-          "kind" : "file",
-          "name" : "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/ArgumentParser.build/CompletionsGenerator.swift.o"
-        },
-        {
-          "kind" : "file",
-          "name" : "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/ArgumentParser.build/DumpHelpGenerator.swift.o"
-        },
-        {
-          "kind" : "file",
-          "name" : "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/ArgumentParser.build/EnumerableFlag.swift.o"
-        },
-        {
-          "kind" : "file",
-          "name" : "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/ArgumentParser.build/Errors.swift.o"
-        },
-        {
-          "kind" : "file",
-          "name" : "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/ArgumentParser.build/ExpressibleByArgument.swift.o"
-        },
-        {
-          "kind" : "file",
-          "name" : "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/ArgumentParser.build/FishCompletionsGenerator.swift.o"
-        },
-        {
-          "kind" : "file",
-          "name" : "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/ArgumentParser.build/Flag.swift.o"
-        },
-        {
-          "kind" : "file",
-          "name" : "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/ArgumentParser.build/HelpCommand.swift.o"
-        },
-        {
-          "kind" : "file",
-          "name" : "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/ArgumentParser.build/HelpGenerator.swift.o"
-        },
-        {
-          "kind" : "file",
-          "name" : "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/ArgumentParser.build/InputKey.swift.o"
-        },
-        {
-          "kind" : "file",
-          "name" : "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/ArgumentParser.build/InputOrigin.swift.o"
-        },
-        {
-          "kind" : "file",
-          "name" : "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/ArgumentParser.build/MessageInfo.swift.o"
-        },
-        {
-          "kind" : "file",
-          "name" : "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/ArgumentParser.build/Mutex.swift.o"
-        },
-        {
-          "kind" : "file",
-          "name" : "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/ArgumentParser.build/Name.swift.o"
-        },
-        {
-          "kind" : "file",
-          "name" : "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/ArgumentParser.build/NameSpecification.swift.o"
-        },
-        {
-          "kind" : "file",
-          "name" : "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/ArgumentParser.build/NonsenseFlagsValidator.swift.o"
-        },
-        {
-          "kind" : "file",
-          "name" : "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/ArgumentParser.build/Option.swift.o"
-        },
-        {
-          "kind" : "file",
-          "name" : "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/ArgumentParser.build/OptionGroup.swift.o"
-        },
-        {
-          "kind" : "file",
-          "name" : "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/ArgumentParser.build/ParsableArguments.swift.o"
-        },
-        {
-          "kind" : "file",
-          "name" : "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/ArgumentParser.build/ParsableArgumentsValidation.swift.o"
-        },
-        {
-          "kind" : "file",
-          "name" : "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/ArgumentParser.build/ParsableCommand.swift.o"
-        },
-        {
-          "kind" : "file",
-          "name" : "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/ArgumentParser.build/Parsed.swift.o"
-        },
-        {
-          "kind" : "file",
-          "name" : "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/ArgumentParser.build/ParsedValues.swift.o"
-        },
-        {
-          "kind" : "file",
-          "name" : "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/ArgumentParser.build/ParserError.swift.o"
-        },
-        {
-          "kind" : "file",
-          "name" : "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/ArgumentParser.build/Platform.swift.o"
-        },
-        {
-          "kind" : "file",
-          "name" : "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/ArgumentParser.build/PositionalArgumentsValidator.swift.o"
-        },
-        {
-          "kind" : "file",
-          "name" : "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/ArgumentParser.build/SequenceExtensions.swift.o"
-        },
-        {
-          "kind" : "file",
-          "name" : "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/ArgumentParser.build/SplitArguments.swift.o"
-        },
-        {
-          "kind" : "file",
-          "name" : "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/ArgumentParser.build/StringExtensions.swift.o"
-        },
-        {
-          "kind" : "file",
-          "name" : "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/ArgumentParser.build/SwiftExtensions.swift.o"
-        },
-        {
-          "kind" : "file",
-          "name" : "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/ArgumentParser.build/Tree.swift.o"
-        },
-        {
-          "kind" : "file",
-          "name" : "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/ArgumentParser.build/UniqueNamesValidator.swift.o"
-        },
-        {
-          "kind" : "file",
-          "name" : "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/ArgumentParser.build/UsageGenerator.swift.o"
-        },
-        {
-          "kind" : "file",
-          "name" : "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/ArgumentParser.build/ZshCompletionsGenerator.swift.o"
-        },
-        {
-          "kind" : "file",
-          "name" : "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/ArgumentParserToolInfo.build/ArgumentParserToolInfo.swiftmodule.o"
-        },
-        {
-          "kind" : "file",
-          "name" : "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/ArgumentParserToolInfo.build/ToolInfo.swift.o"
         },
         {
           "kind" : "file",
@@ -17581,19 +17710,11 @@
         },
         {
           "kind" : "file",
-          "name" : "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/BrainSAITClient.build/BrainSAITClient.swiftmodule.o"
-        },
-        {
-          "kind" : "file",
-          "name" : "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/BrainSAITClient.build/main.swift.o"
-        },
-        {
-          "kind" : "file",
-          "name" : "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/BrainSAITMCP.build/BrainSAITClient.swift.o"
-        },
-        {
-          "kind" : "file",
           "name" : "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/BrainSAITMCP.build/BrainSAITCore.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/BrainSAITMCP.build/BrainSAITExample.swift.o"
         },
         {
           "kind" : "file",
@@ -17601,11 +17722,31 @@
         },
         {
           "kind" : "file",
-          "name" : "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/BrainSAITMCP.build/BrainSAITServer.swift.o"
+          "name" : "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/BrainSAITMCPTests.build/BrainSAITMCPTests.swift.o"
         },
         {
           "kind" : "file",
-          "name" : "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/BrainSAITMCP.build/TransportFactory.swift.o"
+          "name" : "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/BrainSAITMCPTests.build/BrainSAITMCPTests.swiftmodule.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/BrainSAIT_MCPPackageDiscoveredTests.build/BrainSAITMCPTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/BrainSAIT_MCPPackageDiscoveredTests.build/BrainSAIT_MCPPackageDiscoveredTests.swiftmodule.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/BrainSAIT_MCPPackageDiscoveredTests.build/all-discovered-tests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/BrainSAIT_MCPPackageTests.build/BrainSAIT_MCPPackageTests.swiftmodule.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/BrainSAIT_MCPPackageTests.build/runner.swift.o"
         },
         {
           "kind" : "file",
@@ -20064,9 +20205,9 @@
           "name" : "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/UnixSignals.build/UnixSignalsSequence.swift.o"
         }
       ],
-      "outputFilePath" : "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/BrainSAITClient.product/Objects.LinkFileList"
+      "outputFilePath" : "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/BrainSAIT-MCPPackageTests.product/Objects.LinkFileList"
     },
-    "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/BrainSAITHealthcareServer.build/sources" : {
+    "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/BrainSAITDemo.build/sources" : {
       "alwaysOutOfDate" : false,
       "inputs" : [
         {
@@ -20075,225 +20216,17 @@
         },
         {
           "kind" : "file",
-          "name" : "/home/runner/work/mcp-swift/mcp-swift/Sources/BrainSAITHealthcareServer/main.swift"
+          "name" : "/home/runner/work/mcp-swift/mcp-swift/Sources/BrainSAITDemo/main.swift"
         }
       ],
-      "outputFilePath" : "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/BrainSAITHealthcareServer.build/sources"
+      "outputFilePath" : "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/BrainSAITDemo.build/sources"
     },
-    "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/BrainSAITHealthcareServer.product/Objects.LinkFileList" : {
+    "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/BrainSAITDemo.product/Objects.LinkFileList" : {
       "alwaysOutOfDate" : false,
       "inputs" : [
         {
           "kind" : "virtual",
           "name" : "<link-file-list>"
-        },
-        {
-          "kind" : "file",
-          "name" : "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/ArgumentParser.build/Argument.swift.o"
-        },
-        {
-          "kind" : "file",
-          "name" : "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/ArgumentParser.build/ArgumentDecoder.swift.o"
-        },
-        {
-          "kind" : "file",
-          "name" : "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/ArgumentParser.build/ArgumentDefinition.swift.o"
-        },
-        {
-          "kind" : "file",
-          "name" : "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/ArgumentParser.build/ArgumentDiscussion.swift.o"
-        },
-        {
-          "kind" : "file",
-          "name" : "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/ArgumentParser.build/ArgumentHelp.swift.o"
-        },
-        {
-          "kind" : "file",
-          "name" : "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/ArgumentParser.build/ArgumentParser.swiftmodule.o"
-        },
-        {
-          "kind" : "file",
-          "name" : "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/ArgumentParser.build/ArgumentSet.swift.o"
-        },
-        {
-          "kind" : "file",
-          "name" : "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/ArgumentParser.build/ArgumentVisibility.swift.o"
-        },
-        {
-          "kind" : "file",
-          "name" : "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/ArgumentParser.build/AsyncParsableCommand.swift.o"
-        },
-        {
-          "kind" : "file",
-          "name" : "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/ArgumentParser.build/BashCompletionsGenerator.swift.o"
-        },
-        {
-          "kind" : "file",
-          "name" : "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/ArgumentParser.build/CodingKeyValidator.swift.o"
-        },
-        {
-          "kind" : "file",
-          "name" : "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/ArgumentParser.build/CollectionExtensions.swift.o"
-        },
-        {
-          "kind" : "file",
-          "name" : "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/ArgumentParser.build/CommandConfiguration.swift.o"
-        },
-        {
-          "kind" : "file",
-          "name" : "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/ArgumentParser.build/CommandGroup.swift.o"
-        },
-        {
-          "kind" : "file",
-          "name" : "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/ArgumentParser.build/CommandParser.swift.o"
-        },
-        {
-          "kind" : "file",
-          "name" : "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/ArgumentParser.build/CompletionKind.swift.o"
-        },
-        {
-          "kind" : "file",
-          "name" : "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/ArgumentParser.build/CompletionsGenerator.swift.o"
-        },
-        {
-          "kind" : "file",
-          "name" : "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/ArgumentParser.build/DumpHelpGenerator.swift.o"
-        },
-        {
-          "kind" : "file",
-          "name" : "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/ArgumentParser.build/EnumerableFlag.swift.o"
-        },
-        {
-          "kind" : "file",
-          "name" : "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/ArgumentParser.build/Errors.swift.o"
-        },
-        {
-          "kind" : "file",
-          "name" : "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/ArgumentParser.build/ExpressibleByArgument.swift.o"
-        },
-        {
-          "kind" : "file",
-          "name" : "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/ArgumentParser.build/FishCompletionsGenerator.swift.o"
-        },
-        {
-          "kind" : "file",
-          "name" : "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/ArgumentParser.build/Flag.swift.o"
-        },
-        {
-          "kind" : "file",
-          "name" : "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/ArgumentParser.build/HelpCommand.swift.o"
-        },
-        {
-          "kind" : "file",
-          "name" : "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/ArgumentParser.build/HelpGenerator.swift.o"
-        },
-        {
-          "kind" : "file",
-          "name" : "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/ArgumentParser.build/InputKey.swift.o"
-        },
-        {
-          "kind" : "file",
-          "name" : "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/ArgumentParser.build/InputOrigin.swift.o"
-        },
-        {
-          "kind" : "file",
-          "name" : "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/ArgumentParser.build/MessageInfo.swift.o"
-        },
-        {
-          "kind" : "file",
-          "name" : "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/ArgumentParser.build/Mutex.swift.o"
-        },
-        {
-          "kind" : "file",
-          "name" : "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/ArgumentParser.build/Name.swift.o"
-        },
-        {
-          "kind" : "file",
-          "name" : "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/ArgumentParser.build/NameSpecification.swift.o"
-        },
-        {
-          "kind" : "file",
-          "name" : "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/ArgumentParser.build/NonsenseFlagsValidator.swift.o"
-        },
-        {
-          "kind" : "file",
-          "name" : "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/ArgumentParser.build/Option.swift.o"
-        },
-        {
-          "kind" : "file",
-          "name" : "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/ArgumentParser.build/OptionGroup.swift.o"
-        },
-        {
-          "kind" : "file",
-          "name" : "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/ArgumentParser.build/ParsableArguments.swift.o"
-        },
-        {
-          "kind" : "file",
-          "name" : "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/ArgumentParser.build/ParsableArgumentsValidation.swift.o"
-        },
-        {
-          "kind" : "file",
-          "name" : "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/ArgumentParser.build/ParsableCommand.swift.o"
-        },
-        {
-          "kind" : "file",
-          "name" : "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/ArgumentParser.build/Parsed.swift.o"
-        },
-        {
-          "kind" : "file",
-          "name" : "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/ArgumentParser.build/ParsedValues.swift.o"
-        },
-        {
-          "kind" : "file",
-          "name" : "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/ArgumentParser.build/ParserError.swift.o"
-        },
-        {
-          "kind" : "file",
-          "name" : "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/ArgumentParser.build/Platform.swift.o"
-        },
-        {
-          "kind" : "file",
-          "name" : "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/ArgumentParser.build/PositionalArgumentsValidator.swift.o"
-        },
-        {
-          "kind" : "file",
-          "name" : "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/ArgumentParser.build/SequenceExtensions.swift.o"
-        },
-        {
-          "kind" : "file",
-          "name" : "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/ArgumentParser.build/SplitArguments.swift.o"
-        },
-        {
-          "kind" : "file",
-          "name" : "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/ArgumentParser.build/StringExtensions.swift.o"
-        },
-        {
-          "kind" : "file",
-          "name" : "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/ArgumentParser.build/SwiftExtensions.swift.o"
-        },
-        {
-          "kind" : "file",
-          "name" : "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/ArgumentParser.build/Tree.swift.o"
-        },
-        {
-          "kind" : "file",
-          "name" : "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/ArgumentParser.build/UniqueNamesValidator.swift.o"
-        },
-        {
-          "kind" : "file",
-          "name" : "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/ArgumentParser.build/UsageGenerator.swift.o"
-        },
-        {
-          "kind" : "file",
-          "name" : "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/ArgumentParser.build/ZshCompletionsGenerator.swift.o"
-        },
-        {
-          "kind" : "file",
-          "name" : "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/ArgumentParserToolInfo.build/ArgumentParserToolInfo.swiftmodule.o"
-        },
-        {
-          "kind" : "file",
-          "name" : "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/ArgumentParserToolInfo.build/ToolInfo.swift.o"
         },
         {
           "kind" : "file",
@@ -20501,15 +20434,11 @@
         },
         {
           "kind" : "file",
-          "name" : "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/BrainSAITHealthcareServer.build/BrainSAITHealthcareServer.swiftmodule.o"
+          "name" : "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/BrainSAITDemo.build/BrainSAITDemo.swiftmodule.o"
         },
         {
           "kind" : "file",
-          "name" : "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/BrainSAITHealthcareServer.build/main.swift.o"
-        },
-        {
-          "kind" : "file",
-          "name" : "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/BrainSAITMCP.build/BrainSAITClient.swift.o"
+          "name" : "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/BrainSAITDemo.build/main.swift.o"
         },
         {
           "kind" : "file",
@@ -20517,15 +20446,11 @@
         },
         {
           "kind" : "file",
+          "name" : "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/BrainSAITMCP.build/BrainSAITExample.swift.o"
+        },
+        {
+          "kind" : "file",
           "name" : "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/BrainSAITMCP.build/BrainSAITMCP.swiftmodule.o"
-        },
-        {
-          "kind" : "file",
-          "name" : "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/BrainSAITMCP.build/BrainSAITServer.swift.o"
-        },
-        {
-          "kind" : "file",
-          "name" : "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/BrainSAITMCP.build/TransportFactory.swift.o"
         },
         {
           "kind" : "file",
@@ -22984,7 +22909,7 @@
           "name" : "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/UnixSignals.build/UnixSignalsSequence.swift.o"
         }
       ],
-      "outputFilePath" : "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/BrainSAITHealthcareServer.product/Objects.LinkFileList"
+      "outputFilePath" : "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/BrainSAITDemo.product/Objects.LinkFileList"
     },
     "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/BrainSAITMCP.build/sources" : {
       "alwaysOutOfDate" : false,
@@ -22995,22 +22920,60 @@
         },
         {
           "kind" : "file",
-          "name" : "/home/runner/work/mcp-swift/mcp-swift/Sources/BrainSAITMCP/BrainSAITClient.swift"
-        },
-        {
-          "kind" : "file",
           "name" : "/home/runner/work/mcp-swift/mcp-swift/Sources/BrainSAITMCP/BrainSAITCore.swift"
         },
         {
           "kind" : "file",
-          "name" : "/home/runner/work/mcp-swift/mcp-swift/Sources/BrainSAITMCP/BrainSAITServer.swift"
-        },
-        {
-          "kind" : "file",
-          "name" : "/home/runner/work/mcp-swift/mcp-swift/Sources/BrainSAITMCP/TransportFactory.swift"
+          "name" : "/home/runner/work/mcp-swift/mcp-swift/Sources/BrainSAITMCP/BrainSAITExample.swift"
         }
       ],
       "outputFilePath" : "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/BrainSAITMCP.build/sources"
+    },
+    "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/BrainSAITMCPTests.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/mcp-swift/mcp-swift/Tests/BrainSAITMCPTests/BrainSAITMCPTests.swift"
+        }
+      ],
+      "outputFilePath" : "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/BrainSAITMCPTests.build/sources"
+    },
+    "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/BrainSAIT_MCPPackageDiscoveredTests.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/BrainSAIT-MCPPackageDiscoveredTests.derived/BrainSAITMCPTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/BrainSAIT-MCPPackageDiscoveredTests.derived/all-discovered-tests.swift"
+        }
+      ],
+      "outputFilePath" : "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/BrainSAIT_MCPPackageDiscoveredTests.build/sources"
+    },
+    "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/BrainSAIT_MCPPackageTests.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/BrainSAIT-MCPPackageTests.derived/runner.swift"
+        }
+      ],
+      "outputFilePath" : "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/BrainSAIT_MCPPackageTests.build/sources"
     },
     "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/Collections.build/sources" : {
       "alwaysOutOfDate" : false,

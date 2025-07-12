@@ -1,0 +1,21 @@
+# Build artifacts
+.build/
+Package.resolved
+
+# Xcode
+*.xcodeproj
+*.xcworkspace
+.swiftpm/
+
+# macOS
+.DS_Store
+
+# Temporary files
+/tmp/
+*.tmp
+*.swp
+*~
+
+# Development
+.vscode/
+*.log

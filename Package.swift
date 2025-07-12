@@ -19,13 +19,18 @@ let package = Package(
             targets: ["BrainSAITMCP"]
         ),
         .executable(
-            name: "BrainSAITHealthcareServer",
-            targets: ["BrainSAITHealthcareServer"]
+            name: "BrainSAITDemo",
+            targets: ["BrainSAITDemo"]
         ),
-        .executable(
-            name: "BrainSAITClient",
-            targets: ["BrainSAITClient"]
-        )
+        // TODO: Re-enable when MCP SDK integration is complete
+        // .executable(
+        //     name: "BrainSAITHealthcareServer",
+        //     targets: ["BrainSAITHealthcareServer"]
+        // ),
+        // .executable(
+        //     name: "BrainSAITClient",
+        //     targets: ["BrainSAITClient"]
+        // )
     ],
     dependencies: [
         // MCP Swift SDK dependency
@@ -51,19 +56,26 @@ let package = Package(
             ]
         ),
         .executableTarget(
-            name: "BrainSAITHealthcareServer",
+            name: "BrainSAITDemo",
             dependencies: [
-                "BrainSAITMCP",
-                .product(name: "ArgumentParser", package: "swift-argument-parser")
+                "BrainSAITMCP"
             ]
         ),
-        .executableTarget(
-            name: "BrainSAITClient",
-            dependencies: [
-                "BrainSAITMCP",
-                .product(name: "ArgumentParser", package: "swift-argument-parser")
-            ]
-        ),
+        // TODO: Re-enable when MCP SDK integration is complete
+        // .executableTarget(
+        //     name: "BrainSAITHealthcareServer",
+        //     dependencies: [
+        //         "BrainSAITMCP",
+        //         .product(name: "ArgumentParser", package: "swift-argument-parser")
+        //     ]
+        // ),
+        // .executableTarget(
+        //     name: "BrainSAITClient",
+        //     dependencies: [
+        //         "BrainSAITMCP",
+        //         .product(name: "ArgumentParser", package: "swift-argument-parser")
+        //     ]
+        // ),
         .testTarget(
             name: "BrainSAITMCPTests",
             dependencies: ["BrainSAITMCP"]

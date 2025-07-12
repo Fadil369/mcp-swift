@@ -51,8 +51,10 @@ public struct LanguageProcessor {
     /// Detect language from text input
     public static func detectLanguage(from text: String) -> Language {
         // Simple heuristic: check for Arabic Unicode range
-        let arabicRange = "\u{0600}"..."\u{06FF}"
-        let containsArabic = text.unicodeScalars.contains { arabicRange.contains($0) }
+        let arabicRange: ClosedRange<UInt32> = 0x0600...0x06FF
+        let containsArabic = text.unicodeScalars.contains { 
+            arabicRange.contains($0.value) 
+        }
         
         if containsArabic {
             return .arabic

@@ -1,0 +1,29 @@
+{
+  "": {
+    "swift-dependencies": "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/Logging.build/master.swiftdeps"
+  },
+  "/home/runner/work/mcp-swift/mcp-swift/.build/checkouts/swift-log/Sources/Logging/Locks.swift": {
+    "dependencies": "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/Logging.build/Locks.d",
+    "object": "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/Logging.build/Locks.swift.o",
+    "swiftmodule": "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/Logging.build/Locks~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/Logging.build/Locks.swiftdeps"
+  },
+  "/home/runner/work/mcp-swift/mcp-swift/.build/checkouts/swift-log/Sources/Logging/LogHandler.swift": {
+    "dependencies": "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/Logging.build/LogHandler.d",
+    "object": "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/Logging.build/LogHandler.swift.o",
+    "swiftmodule": "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/Logging.build/LogHandler~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/Logging.build/LogHandler.swiftdeps"
+  },
+  "/home/runner/work/mcp-swift/mcp-swift/.build/checkouts/swift-log/Sources/Logging/Logging.swift": {
+    "dependencies": "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/Logging.build/Logging.d",
+    "object": "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/Logging.build/Logging.swift.o",
+    "swiftmodule": "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/Logging.build/Logging~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/Logging.build/Logging.swiftdeps"
+  },
+  "/home/runner/work/mcp-swift/mcp-swift/.build/checkouts/swift-log/Sources/Logging/MetadataProvider.swift": {
+    "dependencies": "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/Logging.build/MetadataProvider.d",
+    "object": "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/Logging.build/MetadataProvider.swift.o",
+    "swiftmodule": "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/Logging.build/MetadataProvider~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/Logging.build/MetadataProvider.swiftdeps"
+  }
+}

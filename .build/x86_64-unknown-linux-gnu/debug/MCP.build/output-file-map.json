@@ -1,0 +1,119 @@
+{
+  "": {
+    "swift-dependencies": "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/MCP.build/master.swiftdeps"
+  },
+  "/home/runner/work/mcp-swift/mcp-swift/.build/checkouts/swift-sdk/Sources/MCP/Base/Error.swift": {
+    "dependencies": "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/MCP.build/Error.d",
+    "object": "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/MCP.build/Error.swift.o",
+    "swiftmodule": "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/MCP.build/Error~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/MCP.build/Error.swiftdeps"
+  },
+  "/home/runner/work/mcp-swift/mcp-swift/.build/checkouts/swift-sdk/Sources/MCP/Base/ID.swift": {
+    "dependencies": "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/MCP.build/ID.d",
+    "object": "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/MCP.build/ID.swift.o",
+    "swiftmodule": "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/MCP.build/ID~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/MCP.build/ID.swiftdeps"
+  },
+  "/home/runner/work/mcp-swift/mcp-swift/.build/checkouts/swift-sdk/Sources/MCP/Base/Lifecycle.swift": {
+    "dependencies": "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/MCP.build/Lifecycle.d",
+    "object": "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/MCP.build/Lifecycle.swift.o",
+    "swiftmodule": "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/MCP.build/Lifecycle~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/MCP.build/Lifecycle.swiftdeps"
+  },
+  "/home/runner/work/mcp-swift/mcp-swift/.build/checkouts/swift-sdk/Sources/MCP/Base/Messages.swift": {
+    "dependencies": "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/MCP.build/Messages.d",
+    "object": "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/MCP.build/Messages.swift.o",
+    "swiftmodule": "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/MCP.build/Messages~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/MCP.build/Messages.swiftdeps"
+  },
+  "/home/runner/work/mcp-swift/mcp-swift/.build/checkouts/swift-sdk/Sources/MCP/Base/Transport.swift": {
+    "dependencies": "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/MCP.build/Transport.d",
+    "object": "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/MCP.build/Transport.swift.o",
+    "swiftmodule": "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/MCP.build/Transport~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/MCP.build/Transport.swiftdeps"
+  },
+  "/home/runner/work/mcp-swift/mcp-swift/.build/checkouts/swift-sdk/Sources/MCP/Base/Transports/HTTPClientTransport.swift": {
+    "dependencies": "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/MCP.build/HTTPClientTransport.d",
+    "object": "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/MCP.build/HTTPClientTransport.swift.o",
+    "swiftmodule": "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/MCP.build/HTTPClientTransport~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/MCP.build/HTTPClientTransport.swiftdeps"
+  },
+  "/home/runner/work/mcp-swift/mcp-swift/.build/checkouts/swift-sdk/Sources/MCP/Base/Transports/NetworkTransport.swift": {
+    "dependencies": "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/MCP.build/NetworkTransport.d",
+    "object": "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/MCP.build/NetworkTransport.swift.o",
+    "swiftmodule": "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/MCP.build/NetworkTransport~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/MCP.build/NetworkTransport.swiftdeps"
+  },
+  "/home/runner/work/mcp-swift/mcp-swift/.build/checkouts/swift-sdk/Sources/MCP/Base/Transports/StdioTransport.swift": {
+    "dependencies": "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/MCP.build/StdioTransport.d",
+    "object": "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/MCP.build/StdioTransport.swift.o",
+    "swiftmodule": "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/MCP.build/StdioTransport~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/MCP.build/StdioTransport.swiftdeps"
+  },
+  "/home/runner/work/mcp-swift/mcp-swift/.build/checkouts/swift-sdk/Sources/MCP/Base/UnitInterval.swift": {
+    "dependencies": "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/MCP.build/UnitInterval.d",
+    "object": "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/MCP.build/UnitInterval.swift.o",
+    "swiftmodule": "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/MCP.build/UnitInterval~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/MCP.build/UnitInterval.swiftdeps"
+  },
+  "/home/runner/work/mcp-swift/mcp-swift/.build/checkouts/swift-sdk/Sources/MCP/Base/Utilities/Ping.swift": {
+    "dependencies": "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/MCP.build/Ping.d",
+    "object": "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/MCP.build/Ping.swift.o",
+    "swiftmodule": "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/MCP.build/Ping~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/MCP.build/Ping.swiftdeps"
+  },
+  "/home/runner/work/mcp-swift/mcp-swift/.build/checkouts/swift-sdk/Sources/MCP/Base/Value.swift": {
+    "dependencies": "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/MCP.build/Value.d",
+    "object": "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/MCP.build/Value.swift.o",
+    "swiftmodule": "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/MCP.build/Value~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/MCP.build/Value.swiftdeps"
+  },
+  "/home/runner/work/mcp-swift/mcp-swift/.build/checkouts/swift-sdk/Sources/MCP/Base/Versioning.swift": {
+    "dependencies": "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/MCP.build/Versioning.d",
+    "object": "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/MCP.build/Versioning.swift.o",
+    "swiftmodule": "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/MCP.build/Versioning~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/MCP.build/Versioning.swiftdeps"
+  },
+  "/home/runner/work/mcp-swift/mcp-swift/.build/checkouts/swift-sdk/Sources/MCP/Client/Client.swift": {
+    "dependencies": "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/MCP.build/Client.d",
+    "object": "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/MCP.build/Client.swift.o",
+    "swiftmodule": "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/MCP.build/Client~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/MCP.build/Client.swiftdeps"
+  },
+  "/home/runner/work/mcp-swift/mcp-swift/.build/checkouts/swift-sdk/Sources/MCP/Extensions/Data+Extensions.swift": {
+    "dependencies": "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/MCP.build/Data+Extensions.d",
+    "object": "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/MCP.build/Data+Extensions.swift.o",
+    "swiftmodule": "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/MCP.build/Data+Extensions~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/MCP.build/Data+Extensions.swiftdeps"
+  },
+  "/home/runner/work/mcp-swift/mcp-swift/.build/checkouts/swift-sdk/Sources/MCP/Server/Prompts.swift": {
+    "dependencies": "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/MCP.build/Prompts.d",
+    "object": "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/MCP.build/Prompts.swift.o",
+    "swiftmodule": "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/MCP.build/Prompts~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/MCP.build/Prompts.swiftdeps"
+  },
+  "/home/runner/work/mcp-swift/mcp-swift/.build/checkouts/swift-sdk/Sources/MCP/Server/Resources.swift": {
+    "dependencies": "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/MCP.build/Resources.d",
+    "object": "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/MCP.build/Resources.swift.o",
+    "swiftmodule": "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/MCP.build/Resources~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/MCP.build/Resources.swiftdeps"
+  },
+  "/home/runner/work/mcp-swift/mcp-swift/.build/checkouts/swift-sdk/Sources/MCP/Server/Sampling.swift": {
+    "dependencies": "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/MCP.build/Sampling.d",
+    "object": "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/MCP.build/Sampling.swift.o",
+    "swiftmodule": "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/MCP.build/Sampling~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/MCP.build/Sampling.swiftdeps"
+  },
+  "/home/runner/work/mcp-swift/mcp-swift/.build/checkouts/swift-sdk/Sources/MCP/Server/Server.swift": {
+    "dependencies": "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/MCP.build/Server.d",
+    "object": "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/MCP.build/Server.swift.o",
+    "swiftmodule": "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/MCP.build/Server~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/MCP.build/Server.swiftdeps"
+  },
+  "/home/runner/work/mcp-swift/mcp-swift/.build/checkouts/swift-sdk/Sources/MCP/Server/Tools.swift": {
+    "dependencies": "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/MCP.build/Tools.d",
+    "object": "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/MCP.build/Tools.swift.o",
+    "swiftmodule": "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/MCP.build/Tools~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/MCP.build/Tools.swiftdeps"
+  }
+}

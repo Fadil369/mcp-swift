@@ -1,0 +1,29 @@
+{
+  "": {
+    "swift-dependencies": "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/BrainSAITMCP.build/master.swiftdeps"
+  },
+  "/home/runner/work/mcp-swift/mcp-swift/Sources/BrainSAITMCP/BrainSAITClient.swift": {
+    "dependencies": "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/BrainSAITMCP.build/BrainSAITClient.d",
+    "object": "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/BrainSAITMCP.build/BrainSAITClient.swift.o",
+    "swiftmodule": "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/BrainSAITMCP.build/BrainSAITClient~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/BrainSAITMCP.build/BrainSAITClient.swiftdeps"
+  },
+  "/home/runner/work/mcp-swift/mcp-swift/Sources/BrainSAITMCP/BrainSAITCore.swift": {
+    "dependencies": "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/BrainSAITMCP.build/BrainSAITCore.d",
+    "object": "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/BrainSAITMCP.build/BrainSAITCore.swift.o",
+    "swiftmodule": "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/BrainSAITMCP.build/BrainSAITCore~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/BrainSAITMCP.build/BrainSAITCore.swiftdeps"
+  },
+  "/home/runner/work/mcp-swift/mcp-swift/Sources/BrainSAITMCP/BrainSAITServer.swift": {
+    "dependencies": "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/BrainSAITMCP.build/BrainSAITServer.d",
+    "object": "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/BrainSAITMCP.build/BrainSAITServer.swift.o",
+    "swiftmodule": "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/BrainSAITMCP.build/BrainSAITServer~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/BrainSAITMCP.build/BrainSAITServer.swiftdeps"
+  },
+  "/home/runner/work/mcp-swift/mcp-swift/Sources/BrainSAITMCP/TransportFactory.swift": {
+    "dependencies": "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/BrainSAITMCP.build/TransportFactory.d",
+    "object": "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/BrainSAITMCP.build/TransportFactory.swift.o",
+    "swiftmodule": "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/BrainSAITMCP.build/TransportFactory~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/mcp-swift/mcp-swift/.build/x86_64-unknown-linux-gnu/debug/BrainSAITMCP.build/TransportFactory.swiftdeps"
+  }
+}
